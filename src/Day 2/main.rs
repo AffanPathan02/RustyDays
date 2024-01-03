@@ -11,6 +11,8 @@ fn reversed_array(arr: &mut[i32;5] ){
 fn main(){
     let mut arr=[1,2,3,4,5];
     reversed_array(&mut arr);
+    let mut arr=[1,2,3,4,5];
+    reversed_array(&mut arr);
     println!("{:?}",arr);
 
     let max_ele=arr.iter().max();
