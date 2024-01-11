@@ -50,7 +50,7 @@ fn main() {
         }
     }
 
-    let a=String::from("123abc");
+    let a=String::from("123abcd");
     for b in a.bytes(){
         println!("{}",b)
     }
